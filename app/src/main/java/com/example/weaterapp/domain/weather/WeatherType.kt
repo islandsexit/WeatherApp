@@ -8,55 +8,55 @@ sealed class WeatherType(
     @DrawableRes val iconRes: Int
 ) {
     object ClearSky : WeatherType(
-        weatherDesc = "Clear sky",
+        weatherDesc = "Чистое небо",
         iconRes = R.drawable.ic_sunny
     )
     object MainlyClear : WeatherType(
-        weatherDesc = "Mainly clear",
+        weatherDesc = "В основном ясно",
         iconRes = R.drawable.ic_cloudy
     )
     object PartlyCloudy : WeatherType(
-        weatherDesc = "Partly cloudy",
+        weatherDesc = "Переменная облачность",
         iconRes = R.drawable.ic_cloudy
     )
     object Overcast : WeatherType(
-        weatherDesc = "Overcast",
+        weatherDesc = "Пасмурно",
         iconRes = R.drawable.ic_cloudy
     )
     object Foggy : WeatherType(
-        weatherDesc = "Foggy",
+        weatherDesc = "Туман",
         iconRes = R.drawable.ic_very_cloudy
     )
     object DepositingRimeFog : WeatherType(
-        weatherDesc = "Depositing rime fog",
+        weatherDesc = "Изморось",
         iconRes = R.drawable.ic_very_cloudy
     )
     object LightDrizzle : WeatherType(
-        weatherDesc = "Light drizzle",
+        weatherDesc = "Мелкий дождь",
         iconRes = R.drawable.ic_rainshower
     )
     object ModerateDrizzle : WeatherType(
-        weatherDesc = "Moderate drizzle",
+        weatherDesc = "Нормальный такой мелкий дождь",
         iconRes = R.drawable.ic_rainshower
     )
     object DenseDrizzle : WeatherType(
-        weatherDesc = "Dense drizzle",
+        weatherDesc = "Сильный мелкий дождь)",
         iconRes = R.drawable.ic_rainshower
     )
     object LightFreezingDrizzle : WeatherType(
-        weatherDesc = "Slight freezing drizzle",
+        weatherDesc = "СнегоДождь",
         iconRes = R.drawable.ic_snowyrainy
     )
     object DenseFreezingDrizzle : WeatherType(
-        weatherDesc = "Dense freezing drizzle",
+        weatherDesc = "Сильный СнегоДождь",
         iconRes = R.drawable.ic_snowyrainy
     )
     object SlightRain : WeatherType(
-        weatherDesc = "Slight rain",
+        weatherDesc = "Слабый дождь",
         iconRes = R.drawable.ic_rainy
     )
     object ModerateRain : WeatherType(
-        weatherDesc = "Rainy",
+        weatherDesc = "Дождливо",
         iconRes = R.drawable.ic_rainy
     )
     object HeavyRain : WeatherType(
