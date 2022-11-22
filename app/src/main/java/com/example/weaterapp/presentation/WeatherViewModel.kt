@@ -1,5 +1,6 @@
 package com.example.weaterapp.presentation
 
+import android.util.Log
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
@@ -49,6 +50,7 @@ class WeatherViewModel @Inject constructor(
                     weatherInfo = null,
                     error = "Не могу получить оступ к местоположению :("
                 )
+                Log.e("WeatherViewModel", "loadWeatherInfo:error ", )
             }
         }
     }
